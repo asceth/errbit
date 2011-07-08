@@ -12,9 +12,10 @@ gem 'mongoid_rails_migrations'
 gem 'useragent', '~> 0.3.1'
 gem 'pivotal-tracker'
 
-platform :ruby do
-  gem 'bson_ext', '~> 1.2'
-end
+gem 'ors', :git => 'git://github.com/asceth/ors'
+gem 'unicorn'
+
+gem 'bson_ext', '~> 1.2'
 
 group :development, :test do
   gem 'rspec-rails', '~> 2.5'

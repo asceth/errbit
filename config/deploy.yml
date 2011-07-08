@@ -1,0 +1,10 @@
+use_gateway: false
+deploy_user: "yidhra"
+repo: "git@cthugha.asceth.com"
+base_path: "/srv/web"
+web_servers: ["cthugha.asceth.com"]
+app_servers: ["cthugha.asceth.com"]
+migration_server: "cthugha.asceth.com"
+console_server: "cthugha.asceth.com"
+cron_server: "cthugha.asceth.com"
+
